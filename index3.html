@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Books For Talks Store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      body {
+        font-family: "Raleway", Arial, sans-serif;
+      }
+      .w3-row img {
+        margin-bottom: -8px;
+      }
+      p.a {
+        font-weight: bold;
+        position: absolute;
+        left: 23%;
+        bottom: 68%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width: 1520px">
+      <!-- Header -->
+      <header class="w3-container w3-xlarge w3-padding-24 w3-">
+        <a href="#" class="w3-left w3-button w3-white">books</a>
+        <a href="#about" class="w3-right w3-button w3-white">About</a>
+      </header>
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <p class="a">
+        Authors:Joel Scambray, Stuart McClure
+        <br />
+        List price:$55.00
+      </p>
+
+      <!-- Photo Grid -->
+      <div class="w3-row">
+        <div class="w3-half">
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book-5.png"
+            style="width: 50%"
+          />
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book3.png"
+            style="width: 50%"
+          />
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book-4.png"
+            style="width: 50%"
+          />
+        </div>
+
+        <div class="w3-half">
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book-9.png"
+            style="width: 50%"
+          />
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book-10.png"
+            style="width: 50%"
+          />
+          <input
+            type="image"
+            src="C:\Users\body\Desktop\book-2.png"
+            style="width: 50%"
+          />
+        </div>
+      </div>
+      <style>
+        .center {
+          text-align: center;
+        }
+        .pagination {
+          display: inline-block;
+        }
+
+        .pagination a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+
+        .pagination a.active {
+          background-color: #384371;
+          color: white;
+          border-radius: 5px;
+        }
+
+        .pagination a:hover:not(.active) {
+          background-color: #ddd;
+          border-radius: 5px;
+        }
+      </style>
+      <div class="center">
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Footer / About Section -->
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+      <h2>About</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3FbiUs928NQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <form
+        style="margin: auto; width: 60%"
+        action="/action_page.php"
+        target="_blank"
+      >
+        <p>Book store for all who wants knowledge to be creative and</p>
+        <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
+        <div class="w3-section">
+          <label><b>Name</b></label>
+          <input class="w3-input w3-border" type="text" required name="Name" />
+        </div>
+        <div class="w3-section">
+          <label><b>Email</b></label>
+          <input class="w3-input w3-border" type="text" required name="Email" />
+        </div>
+        <div class="w3-section">
+          <label><b>Message</b></label>
+          <input class="w3-input w3-border" required name="Message" />
+        </div>
+        <button type="submit" class="w3-button w3-block w3-dark-grey">
+          Send
+        </button>
+      </form>
+      <br />
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
